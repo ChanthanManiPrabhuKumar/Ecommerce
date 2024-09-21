@@ -1,0 +1,61 @@
+.hero{
+    height: 100vh;
+}
+.hero_top{
+    display: flex;
+    padding-inline: 100px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.hero_left{
+    max-width: 50%;
+    margin-top: 100px;
+}
+.hero_left h2{
+    font-size: 30px;
+}
+.hero_left h1{
+    font-size: 4.5rem;
+    margin-top: 10px;
+}
+.hero_left p{
+    font-size: 18px;
+    margin-top: 15px;
+    color: #666;
+}
+.hero_right{
+    max-width: 50%;
+}
+.hero_right img{
+    margin-top: 20px;
+    width: 640px;
+    height: 500px;
+    object-fit: contain;
+    background-image: url(https://media2.giphy.com/media/oB6KlAvOuaLtxYy8l4/giphy.webp?cid=ecf05e47etxc1q5mxzgffa6pyh3k6as8yqfkwmktbxqj35cj&ep=v1_gifs_related&rid=giphy.webp&ct=g);
+    border-radius: 50%;
+    background-size: cover;
+    transform: ease-in-out;
+}
+.hero_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 80%;
+    padding: 25px;
+    margin-left: 7rem;
+    border-radius: 10px;
+    box-shadow: -1px 11px 24px 12px grey;
+}
+.hero_content{
+    display: flex;
+    gap: 25px;
+}
+.info_icon .hero_cc-icon{
+    font-size: 44px;
+    color: red;
+}
+.hero_content .details h3{
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
